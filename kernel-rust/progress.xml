@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AFC Acer Nitro Rust kernel driver" updated="2026-08-25">
+  <source status="complete">
+    <repository>https://github.com/PXDiv/Div-Acer-Manager-Fan-Controls</repository>
+    <commit>ffc43cf8acd442e7a3406c01ca81391a170c318c</commit>
+    <integrity>SHA-256 values recorded in UPSTREAM.md</integrity>
+  </source>
+  <implementation status="complete">
+    <item status="complete">Bounded allocation-free decimal write parser</item>
+    <item status="complete">Checked fan-command encoding</item>
+    <item status="complete">Serialized WMI firmware calls</item>
+    <item status="complete">CPU and GPU miscdevice endpoints</item>
+    <item status="complete">Unload-time default restoration</item>
+  </implementation>
+  <verification status="blocked">
+    <blocker>Installed Ubuntu headers omit rust/kernel/lib.rs and generated kernel Rust artifacts</blocker>
+    <required>Prepared full source/build tree matching the running kernel</required>
+  </verification>
+</project>
