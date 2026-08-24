@@ -120,7 +120,6 @@ Compilation happens on the destination laptop. No prebuilt binary is required.
 | `afc.rs` | Freestanding Rust controller |
 | `install-afc.sh` | Destination compiler, installer, and activator |
 | `afc-progress.xml` | Implementation and verification status |
-| `coding_practices.md` | Engineering and optimization policy |
 | `README.md` | Project documentation |
 
 The local `afc` executable is a build artifact and need not be committed.
@@ -508,9 +507,8 @@ New hardware reports should include:
 Do not publish serials, UUIDs, account names, unreviewed logs, or ranges inferred
 only from sound.
 
-Changes must follow `coding_practices.md`. Performance changes require measured
-evidence. Unsafe, FFI, syscall, and assembly changes require explicit safety
-invariants and architecture testing.
+Performance changes require measured evidence. Unsafe, FFI, syscall, and
+assembly changes require explicit safety invariants and architecture testing.
 
 ## Roadmap
 
