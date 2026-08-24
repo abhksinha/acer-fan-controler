@@ -1,0 +1,37 @@
+<Progress>
+  <Component name="AFC">
+    <Status>in-progress</Status>
+  </Component>
+  <Component name="AFC/Platform">
+    <Status>done</Status>
+    <Note>Freestanding x86-64 entry, raw syscall boundary, signals, fixed storage.</Note>
+  </Component>
+  <Component name="AFC/Compatibility">
+    <Status>in-progress</Status>
+    <Note>Acer, DAM WMI, module, DMI range, and character-device validation implemented; model database currently contains ANV15-51.</Note>
+  </Component>
+  <Component name="AFC/Sensors">
+    <Status>done</Status>
+    <Note>Bounded dynamic discovery for trusted CPU and GPU hwmon providers.</Note>
+  </Component>
+  <Component name="AFC/Control">
+    <Status>done</Status>
+    <Note>Scaled stepped curve, immediate rise, delayed gradual fall, sensor fail-safe, and controlled restore.</Note>
+  </Component>
+  <Component name="AFC/DriverSetup">
+    <Status>planned</Status>
+    <Note>Separate DKMS, module-load, capability sysfs, udev, and permissions integration.</Note>
+  </Component>
+  <Component name="AFC/Packaging">
+    <Status>done</Status>
+    <Note>Destination compilation, atomic installation, hardened systemd activation, explicit range configuration, conflict preservation, and rollback are implemented.</Note>
+  </Component>
+  <Component name="AFC/Documentation">
+    <Status>done</Status>
+    <Note>GitHub README and MIT license document safety, compatibility, installation, operation, architecture, troubleshooting, and contribution requirements.</Note>
+  </Component>
+  <Component name="AFC/Verification">
+    <Status>in-progress</Status>
+    <Note>Static release compilation, ELF/startup inspection, host discovery, and curve checks pass; live fan writes and fault injection remain pending.</Note>
+  </Component>
+</Progress>
