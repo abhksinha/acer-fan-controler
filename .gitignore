@@ -2,3 +2,4 @@
 *.o
 /target/
 coding_practices.md
+.enola/
